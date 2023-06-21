@@ -3,7 +3,7 @@ import pytest
 
 
 class TestCalc:
-    def setup(self):
+    def setup_class(self):
         self.calc = Calculator
 
     def test_adding_success(self):
